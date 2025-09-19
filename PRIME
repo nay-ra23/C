@@ -1,0 +1,31 @@
+WAP TO CHECK A NUMBER IS PRIME
+
+void main(){
+    int n,x;
+    for (n=1;n;n++)
+    printf("%d",n);
+}
+
+void main() {
+    int n, i, j, isPrime;
+    printf("Enter a number: ");
+    scanf("%d", &n);
+    
+    if (n <= 1) {
+        printf("%d is not a prime number.\n", n);
+        return;
+    }
+    
+    isPrime = 1; // Assume n is prime
+    for (i = 2; i <= n / 2; i++) {
+        if (n % i == 0) {
+            isPrime = 0; // Found a divisor, not prime
+            break;
+        }
+    }
+    
+    if (isPrime)
+        printf("%d is a prime number.\n", n);
+    else
+        printf("%d is not a prime number.\n", n);
+}
