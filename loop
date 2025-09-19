@@ -11,3 +11,54 @@
     }
     
 }
+
+//DO-WHILE LOOP
+// void main() {
+//     int n=1;
+//     do{
+//         printf("%d",n);
+//         n++;
+//     }while (n<=5);
+// }
+
+// void main(){
+//     int n=1;
+//     for (n=1;n<=5;n++);
+//         printf("%d",n);
+//         n++;
+//         printf("%d",n);
+// }
+
+// void main() {
+//     int n=10;
+//     //for (;n<=5;){
+//     //    for (n=2;n<=5; n++){
+//     for(; ;){
+//         printf("%d",n);
+//         n++;
+//     }
+// }
+
+// void main(){
+//     int n=3;
+//     for(;n<=10;n++);
+//     {
+//     //printf("%d",n);
+//     if (n==5)
+//         continue;
+//     printf("%d",n);
+//     }
+// }
+
+// void main(){
+//     int n=3;
+//     for(;n<=7;n++)
+//     {
+//         printf("%d",n);
+//         if (n==5)
+//             continue;
+//         printf("%d",n);
+//         n++;
+//         printf("%d",n);
+//     }
+// }
