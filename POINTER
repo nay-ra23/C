@@ -1,0 +1,88 @@
+#include <stdio.h>
+// void main(){
+//     int a=20;
+//     int *p;
+//     p = &a; // p now points to a address of a
+//     printf("%u %u",&a, p); 
+//     printf("\n%d ",*p); // dereferencing pointer p to get the value of a 
+// }
+
+
+//ARRAY
+// void main(){
+//     int x; x=5; x=10;
+//     printf("%d",x);    //at a single time only one value can be stored in a variable
+ 
+// }
+
+//WAP TO ADD ALL THE ODD NUMBERS FROM A 1D ARRAY
+// void main() {
+//     int arr[5] = {1, 2, 3, 4, 5};
+//     int sum = 0;
+//     for (int i = 0; i < 5; i++) {
+//         if (arr[i] % 2 != 0) { 
+//             sum += arr[i]; 
+//         }
+//     }
+//     printf("Sum of odd numbers: %d\n", sum);
+// }
+
+
+// #include <stdio.h>
+// int main() {
+//     float x=10;
+//     float *p ;
+//     printf("%d", sizeof(p));
+
+// }
+
+//MATRIX MULTIPLICATION ADDITION PRACTICE
+
+//ADDITION OF NUMBER TO A POINTER.
+
+// void main() {
+//     int i=4, *j, *k;
+//     j=&i;
+//     printf("%d\n",j);
+//     j=j+1;
+//     j=j+9;
+//     k=j+3;
+//     printf("%d %d", j, k);
+// }
+
+//POINTER ARITHMETIC
+// void main() {
+//     int a=20;
+//     int b=30;
+//     int *p, *q;
+//     p = &a; 
+//     q = &b;
+//     printf("%d %d\n", q-p, *q - *p); 
+// }
+
+//COMPARISON OF TWO POINTERS
+// void main() {
+//     int arr[]= {10,20,36,72,45,36};
+//     int *j,*k;
+//     j= &arr[4];
+//     k= (&arr + 4);
+//     if (j==k){
+//         printf("the two pointer point to the same address\n");
+//     } else {
+//         printf("the two pointers do not point to the same location\n");
+//     }
+// }
+
+//ACCESSING ARRAY ELEMENTS USING POINTERS
+// void main(){
+//     int num[]={10,20,30,40,50};
+//     int i,*j;
+//     j = &num[0]; // j points to the first element of the array num
+//     for(i=0; i<5; i++){
+//         printf("\naddress = %u", j);
+//         printf("\nvalue = %d", *j);
+//         j++; 
+// }
+// }
+
+//
