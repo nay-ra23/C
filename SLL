@@ -1,0 +1,49 @@
+//TRAVERSAL OF SLL
+
+
+// #include <stdio.h>
+// #include <stdlib.h>
+
+// struct Node {
+//     int data;
+//     struct Node* next;
+// };
+
+// void printList(struct Node* first)
+// {
+//     struct Node* current = first;
+//     while (current != NULL) {
+//         printf("%d ", current->data);
+//         current = current->next;
+//     }
+//     printf("\n");
+// }
+
+
+// #include <stdio.h>
+// #include <stdlib.h>
+
+// struct Node {
+//     int data;
+//     struct Node* next;
+// };
+// typedef struct node n;
+// struct node *first=NULL, *temp, *start;
+// void CreateNode(int data)
+// {
+//     temp = (struct node*)malloc(sizeof(struct node));
+//     temp->data = data;
+//     tmep->next = NULL;
+//     if (first == NULL) {
+//         first = tmep;
+//     } else {
+//         start->next = tmep;
+//     }
+//     start = tmep;
+// }
+
+//DELETION OF OF NODE
+delete_begin(struct node* start) {
+    ptr = start;
+    start =NULL
+}
