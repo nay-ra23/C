@@ -1,0 +1,24 @@
+//PASSING ENTIRE ARRAY TO FUNCTION
+
+#include <stdio.h>
+void main() {
+int num[] = {10, 20, 30, 40, 50};
+display ( &num[0], 5);
+}
+display ( int *j, int n) {
+    int i;
+    for (i = 0; i <= n - 1; i++) {
+        printf("%d ", *j);
+        j++;
+}
+}
+
+void main(){
+    int num[] = {24, 34, 12, 44, 56, 17};
+    int i;
+    for (i = 0; i <= 5; i++) {
+        printf("\naddress = %u ", &num[i]);
+        printf("\nelement = %d %d", num[i], *(num + i));
+        printf("\n%d %d", *(num + i), num[i]);
+    }
+}
